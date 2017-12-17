@@ -51,6 +51,7 @@ func getInputs(filename string) []byte {
 	reader := bufio.NewReader(f)
 	line, _, _ := reader.ReadLine()
 	inputs = append(line, 17, 31, 73, 47, 23)
+	fmt.Println(inputs)
 	return inputs
 }
 
