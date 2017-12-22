@@ -1,0 +1,19 @@
+mul p 15
+jgz p 10
+set b 2
+mul b 3
+set i 10
+add i -1
+jgz i -1
+add b -1
+snd b
+jgz b -5
+rcv x
+set d 250
+add d -1
+jgz d -1
+rcv a
+jgz a -1
+set q 10
+snd q
+rcv h
